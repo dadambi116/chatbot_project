@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+
+# Django specific
+*.sqlite3
+*.log
+.env
+.env.*
+db.sqlite3
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Git
+.git
+.gitignore
+
+# Node/Frontend
+node_modules/
+*.tsbuildinfo
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+
+# Compiled output
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Docker
+docker-compose.override.yml
+
+# Test
+.coverage
+htmlcov/
+.pytest_cache/
+tests/__pycache__/
